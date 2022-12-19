@@ -482,7 +482,7 @@ body {
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
-  opacity: 0.75%;
+  color: #499A18;
 }
 
 /* Header styles end */
@@ -492,9 +492,61 @@ body {
 /* Welcome stylers start */
 
 .welcome {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #EDF2EC;
+  padding-top: 196px;
 }
 
+.welcome__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.welcome__wrapper-right {
+  padding-top: 36px;
+  padding-left: 220px;
+}
+
+.title-pic {
+  background: url(./assets/img/svg/welcome-pic.svg) no-repeat;
+  background-size: cover;
+  width: 448px;
+  height: 408px;
+}
+
+.welcome-title {
+  max-width: 550px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+  margin-bottom: 42px;
+}
+
+.welcome-title__strong {
+  color: #499A18;
+}
+
+.welcome__text {
+  max-width: 525px;
+  line-height: 35px;
+  margin-bottom: 48px;
+}
+
+.welcome__button {
+  padding: 14px 27px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  background: #EDF2EC;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+}
+
+.welcome__button:hover,
+.welcome__button:focus,
+.welcome__button:active {
+  background: #E06733;
+}
 /* welcome styles end */
+
