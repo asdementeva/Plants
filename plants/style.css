@@ -443,6 +443,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #EDF2EC;
 }
 
 .header__wrapper {
@@ -492,7 +493,7 @@ body {
 /* Welcome stylers start */
 
 .welcome {
-  min-height: 100vh;
+  min-height: 666px;
   background-color: #EDF2EC;
   padding-top: 196px;
 }
@@ -550,3 +551,244 @@ body {
 }
 /* welcome styles end */
 
+
+/* About styles start */
+
+.about {
+  min-height: 666px;
+  padding-top: 93px;
+}
+
+
+.about__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about__wrapper-left {
+  padding-top: 68px;
+  padding-right: 120px;
+}
+
+.about-pic {
+  background: url(./assets/img/svg/about-pic.svg) no-repeat;
+  background-size: cover;
+  width: 479px;
+  height: 464px;
+}
+
+.about-title {
+  max-width: 463px;
+  font-family: 'Inika';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  margin-bottom: 40px;
+}
+
+.about-title__strong {
+  color: #E06733;
+}
+
+.about__text {
+  max-width: 605px;
+  line-height: 30px;
+}
+
+/* About styles end */
+
+
+/* Service styles start */
+
+.service {
+  min-height: 1300px;
+  background-color: #EDF2EC;
+  padding-top: 40px;
+}
+
+
+.service-title__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+
+.service-title {
+  max-width: 306px;
+  font-family: 'Inika';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  margin-right: 142px;
+}
+
+.service-buttons__wrapper{
+  margin-top: 29px;
+}
+
+.service-button {
+  margin-bottom: 29px;
+  padding: 12px 40px;
+  font-family: 'Inika';
+  font-weight: 400;
+  font-size: 20px;
+  color: #E06733;
+  background: #EDF2EC;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  margin-right: 38px;
+}
+
+.service-button:last-child{
+  margin-right: 0px;
+}
+
+.service__button:hover,
+.service__button:focus,
+.service__button:active {
+  background: #E06733;
+}
+
+
+.service__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 116px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 55px;
+}
+
+.service-card-title {
+  max-width: 120px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.service__card-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  margin-bottom: 36px;
+}
+
+.service__card-wrapper-text{
+  border: 1px solid #e3e1d5;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Service styles end */
+
+/* prices styles start */
+
+.prices {
+  min-height: 560px;
+  padding-top: 40px;
+}
+
+.wrapper__prices{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.prices__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.prices__buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 41px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+}
+
+.prices-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  width: 250px;
+  height: 50px;
+  background: #EDF2EC;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.prices-icon{
+  width: 16px;
+  height: 16px;
+}
+
+.prices__best-gardens-title{
+  max-width: 452px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 38px;
+}
+
+.prises__best-gardens-title__strong{
+  color: #499A18;
+}
+
+.wrapper__prises-button-contacs{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prices__button-contact{
+  width: 162px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  background: #FFFFFF;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #E06733;
+  margin-bottom: 39px;
+}
+
+.wrapper__prices-pic{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prices-pic{
+  background: url(./assets/img/svg/prices-pic.svg) no-repeat;
+  background-size: cover;
+  width: 152px;
+  height: 175px;
+}
+
+
+/* prices styles end */
+
+/* contacts styles start */
+
+/* contactsstyles end */
