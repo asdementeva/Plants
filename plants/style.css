@@ -789,6 +789,119 @@ body {
 
 /* prices styles end */
 
+
+
 /* contacts styles start */
 
+.contacts {
+  min-height: 550px;
+  background-color: #EDF2EC;
+  padding-top: 53px;
+}
+
+.wrapper__contacts{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-pic{
+  background: url(./assets/img/svg/contacts-pic.svg) no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 497px;
+}
+
+
+.contacts-title {
+  margin-top: 7px;
+  font-family: 'Inika';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+}
+
+.contacts-form {
+  margin-top: 95px;
+  width: 450px;
+  height: 50px;
+  background: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  border: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
 /* contactsstyles end */
+
+/* footer styles start */
+
+.footer{
+  min-height: 130px;
+  background-color: #FFFFFF;
+  padding-top: 40px;
+}
+
+.footer__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-data{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.c{
+  background: url(./assets/img/svg/c.svg) no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.footer-socials{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ig{
+  background: url(./assets/img/svg/ig.svg) no-repeat;
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+}
+
+.fb{
+  background: url(./assets/img/svg/fb.svg) no-repeat;
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+}
+
+.tw{
+  background: url(./assets/img/svg/tw.svg) no-repeat;
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+}
+
+.pint{
+  background: url(./assets/img/svg/pin.svg) no-repeat;
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+}
+
+/* footer styles end */
